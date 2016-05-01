@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='paramiko-expect',
-    version='0.1',
+    version='0.1.2',
     url='https://github.com/fgimian/paramiko-expect',
     license='MIT',
     author='Fotis Gimian',
@@ -12,6 +12,6 @@ setup(
     platforms='Posix',
     py_modules=['paramikoe'],
     install_requires=[
-        'paramiko>=1.10.1',
+        'paramiko<2.0,>=1.10',
     ],
 )
